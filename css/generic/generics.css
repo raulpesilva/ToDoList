@@ -7,7 +7,7 @@
 
 .botao {
   display: flex;
-  padding: 1em 2.2em;
+  padding: 1em 2em;
   text-decoration: none;
   justify-content: center;
   align-items: center;
@@ -43,6 +43,5 @@
 .checkbox:hover{
   border: #0090FF 1px solid;
   color: #0090FF;
-  content: '✔';
   cursor: pointer;
 }
