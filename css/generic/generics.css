@@ -7,7 +7,7 @@
 
 .botao {
   display: flex;
-  padding: 1em 2em;
+  padding: 1em 1.5em;
   text-decoration: none;
   justify-content: center;
   align-items: center;

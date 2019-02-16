@@ -16,7 +16,8 @@
   bottom: 1.5em;
   left: 50%;
   transform: translateX(-50%);
-  min-width: 1.5em;
+  /* width: max-content; */
+  
 }
 
 .aaa{
