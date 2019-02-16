@@ -1,0 +1,41 @@
+.header{
+  color: #fff;
+}
+.titulo {
+  font-size: 1.5em;
+}
+
+.botao {
+  display: flex;
+  padding: .5em 1.5em;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.botao-cheio{
+  background-color: #0090FF;
+  border-radius: 50px;
+  color: aliceblue;
+}
+.tarefa{
+  display: flex;
+  height: 3em;
+  font-size: 1em;
+  text-transform: capitalize;
+  border-bottom: #aaa 1px solid;
+  align-items: center;
+  color: rgb(105, 105, 105);
+  
+}
+.checkbox{
+  /* background-color: #aaaa; */
+  border: #aaa 1px solid;
+  width: 20px;
+  height: 20px;
+  margin: 0 1em 0 1em;
+  border-radius: 25px;
+}
+.checkbox:hover{
+  cursor: pointer;
+}
