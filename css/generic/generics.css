@@ -12,9 +12,11 @@
   justify-content: center;
   align-items: center;
   cursor: pointer;
+  
 }
 .botao-cheio{
   background-color: #0090FF;
+  border: #0090FF 1px solid;
   border-radius: 50px;
   color: aliceblue;
 }
