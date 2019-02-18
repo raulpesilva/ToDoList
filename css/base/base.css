@@ -14,4 +14,14 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
-button:focus { outline: none; }
+
+button:focus {
+  outline: none;
+}
+
+button:focus,
+input:focus,
+select:focus,
+textarea:focus {
+  outline: none;
+}

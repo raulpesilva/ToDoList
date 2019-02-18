@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="PT-Br">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,6 +15,7 @@
   <link rel="stylesheet" href="css/objects/">
   <link rel="stylesheet" href="css/objects/titulo.css">
   <link rel="stylesheet" href="css/components/">
+  <link rel="stylesheet" href="css/components/adicionar-tarefa.css">
   <link rel="stylesheet" href="css/components/header.css">
   <link rel="stylesheet" href="css/components/nav.css">
   <!-- font -->
@@ -21,31 +23,69 @@
 
   <title>To-Do List</title>
 </head>
+
 <body>
   <header class="header header-home">
     <h1 class="titulo titulo-lista">Nome da Lista</h1>
   </header>
   <section class="conteudo-lista">
     <ul class="tarefas tarefaz-fazer">
-      <li class="tarefa tarefa-item"><div type="checkbox" class="checkbox checkbox-tarefa">✔</div>tarefa 1 <img class="icon icon-favorito">A</img></li>
-      <li class="tarefa tarefa-item"><div type="checkbox" class="checkbox checkbox-tarefa">✔</div>tarefa 2 <img class="icon icon-favorito">A</img></li>
-      <li class="tarefa tarefa-item"><div type="checkbox" class="checkbox checkbox-tarefa">✔</div>tarefa 3 <img class="icon icon-favorito">A</img></li>
-      <li class="tarefa aaa tarefa-item"><div type="checkbox" class="checkbox checkbox-tarefa">✔</div>subtarefa 1 <img class="icon icon-favorito">A</img></li>
-      <li class="tarefa  tarefa-item"><div type="checkbox" class="checkbox aaaa checkbox-tarefa">✔</div>subtarefa 2 <img class="icon icon-favorito">A</img></li>
-      <li class="tarefa tarefa-item"><div type="checkbox" class="checkbox checkbox-tarefa">✔</div>tarefa 3 <img class="icon icon-favorito">A</img></li>
-      <li class="tarefa tarefa-item"><div type="checkbox" class="checkbox checkbox-tarefa">✔</div>tarefa 3 <img class="icon icon-favorito">A</img></li>
-      <li class="tarefa tarefa-item"><div type="checkbox" class="checkbox checkbox-tarefa">✔</div>tarefa 3 <img class="icon icon-favorito">A</img></li>
-      <li class="tarefa tarefa-item"><div type="checkbox" class="checkbox checkbox-tarefa">✔</div>tarefa 3 <img class="icon icon-favorito">A</img></li>
-      <li class="tarefa tarefa-item"><div type="checkbox" class="checkbox checkbox-tarefa">✔</div>tarefa 3 <img class="icon icon-favorito">A</img></li>
-      <li class="tarefa tarefa-item"><div type="checkbox" class="checkbox checkbox-tarefa">✔</div>tarefa 3 <img class="icon icon-favorito">A</img></li>
+      <li class="tarefa tarefa-item">
+        <div type="checkbox" class="checkbox checkbox-tarefa">✔</div>tarefa 1 <img class="icon icon-favorito">A</img>
+      </li>
+      <li class="tarefa tarefa-item">
+        <div type="checkbox" class="checkbox checkbox-tarefa">✔</div>tarefa 2 <img class="icon icon-favorito">A</img>
+      </li>
+      <li class="tarefa tarefa-item">
+        <div type="checkbox" class="checkbox checkbox-tarefa">✔</div>tarefa 3 <img class="icon icon-favorito">A</img>
+      </li>
+      <li class="tarefa aaa tarefa-item">
+        <div type="checkbox" class="checkbox checkbox-tarefa">✔</div>subtarefa 1 <img class="icon icon-favorito">A</img>
+      </li>
+      <li class="tarefa  tarefa-item">
+        <div type="checkbox" class="checkbox aaaa checkbox-tarefa">✔</div>subtarefa 2 <img class="icon icon-favorito">A</img>
+      </li>
+      <li class="tarefa tarefa-item">
+        <div type="checkbox" class="checkbox checkbox-tarefa">✔</div>tarefa 3 <img class="icon icon-favorito">A</img>
+      </li>
+      <li class="tarefa tarefa-item">
+        <div type="checkbox" class="checkbox checkbox-tarefa">✔</div>tarefa 3 <img class="icon icon-favorito">A</img>
+      </li>
+      <li class="tarefa tarefa-item">
+        <div type="checkbox" class="checkbox checkbox-tarefa">✔</div>tarefa 3 <img class="icon icon-favorito">A</img>
+      </li>
+      <li class="tarefa tarefa-item">
+        <div type="checkbox" class="checkbox checkbox-tarefa">✔</div>tarefa 3 <img class="icon icon-favorito">A</img>
+      </li>
+      <li class="tarefa tarefa-item">
+        <div type="checkbox" class="checkbox checkbox-tarefa">✔</div>tarefa 3 <img class="icon icon-favorito">A</img>
+      </li>
+      <li class="tarefa tarefa-item">
+        <div type="checkbox" class="checkbox checkbox-tarefa">✔</div>tarefa 3 <img class="icon icon-favorito">A</img>
+      </li>
 
     </ul>
   </section>
+
   <nav class="nav nav-bottom">
-      <a href="#" class="botao botao-menu"><img src="img/menu-h.svg" alt=""></a>
-      <!-- <a href="#" class="botao botao-cheio botao-adivionar-tarefa">+ Adicionar tarefa</a> -->
-      <button class="botao botao-cheio botao-adivionar-tarefa">+ Adicionar tarefa</button>
-      <a href="#" class="botao botao-opcoes"><img src="img/botao-opcoes.svg" alt=""></a>
+    <div class="container">
+      <a href="#" class="menu-hide-dicionar-tarefa"><img src="img/drop-menu.svg" alt=""></a>
+      <div class="wrap-adicionar-tarefa">
+        <div type="checkbox" class="checkbox checkbox-tarefa">✔</div>
+        <input type="text" name="input-tarefa" class="input-tarefa" placeholder="Adicione uma tarefa!">
+      </div>
+
+      <ul class="op-tarefa">
+        <a href="" class="icon-op-tarefa op-tarefa-item">data</a>
+        <a href="" class="icon-op-tarefa op-tarefa-item">lembrar</a>
+        <a href="" class="icon-op-tarefa op-tarefa-item">+</a>
+      </ul>
+    </div>
+    <a href="#" class="botao icon-menu botao-menu"><img src="img/menu-h.svg" alt=""></a>
+    <!-- <a href="#" class="botao botao-cheio botao-adivionar-tarefa">+ Adicionar tarefa</a> -->
+    <button class="botao botao-cheio botao-adicionar-tarefa">+ Adicionar tarefa</button>
+    <a href="#" class="botao icon-menu botao-opcoes"><img src="img/botao-opcoes.svg" alt=""></a>
   </nav>
 </body>
+
 </html>

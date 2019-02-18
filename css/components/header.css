@@ -1,7 +1,7 @@
 .header-home{
     width: 100%;
     height: 20%;
-    background-image: linear-gradient(123deg, #33A6FF, #0090FF);
+    background-image: linear-gradient(12deg, #33A6FF, #0090FF);
     display: flex;
     align-items: center;
 }
