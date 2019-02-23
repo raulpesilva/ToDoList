@@ -33,6 +33,13 @@
   color: #777;
   
 }
+
+.subtarefa-meio{
+  margin-left: 3em;
+}
+.subtarefa-ultima{
+margin-left: 4em;
+}
 .checkbox{
   /* background-color: #aaaa; */
   display: flex;
@@ -52,4 +59,17 @@
 }
 .conteudo-lista{
   margin-bottom: 5em;
+}
+.icon{
+  width: 15px;
+  height: 15px;
+}
+
+.icon-favorito{
+  margin-right: 1em;
+  opacity: .6;
+}
+
+.texto-lista{
+  flex: 1;
 }

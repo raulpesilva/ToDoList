@@ -1,4 +1,4 @@
-.container {
+.container-tarefa {
   position: absolute;
   width: 75%;
   /* height: 10em; */
@@ -23,7 +23,7 @@
   width: 100%;
 }
 .icon-op-tarefa{
-  border-radius: 25px;
+  border-radius: 100px;
   border: #0090FF 1px solid;
   background-color: #0090FF;
   color: #fff;
@@ -33,6 +33,12 @@
 }
 .op-tarefa{
   margin-top: 1.5em;
+  
+  text-align: center;
+}
+.op-tarefa-item{
+  padding: 0 1em;
+  font-size: 1em;
   text-align: center;
 }
 .input-tarefa{
@@ -41,6 +47,6 @@
   /* background-color: #dddddd; */
 }
 
-.nav:hover>.container{
+.nav:hover>.container-tarefa{
   bottom: 0;
 }
