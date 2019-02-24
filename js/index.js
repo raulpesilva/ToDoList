@@ -24,11 +24,11 @@ $fecharMenu.addEventListener('click', event => {
 
 });
 
-$botaoAdicionarTarefa.addEventListener('click',event=>{
+$botaoAdicionarTarefa.addEventListener('click', event =>{
   $conteinerTarefa.classList.add('mostra-tarefa');
 });
 
-$fecharTarefa.addEventListener('click',event=>{
+$fecharTarefa.addEventListener('click', event =>{
   $conteinerTarefa.classList.remove('mostra-tarefa');
 
-})
+});
