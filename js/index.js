@@ -7,13 +7,6 @@ const $fecharTarefa = document.querySelector('.menu-hide-dicionar-tarefa');
 const $overlayMenu = document.querySelector('.overlay-menu');
 
 
-// function sairMenu(botaoApertado){
-//   const $menuLateralAtivo =  document.querySelector('#menu-lateral');
-//   if ($menuLateralAtivo.classList.contains('menu-lateral-ativo') && botaoApertado !== $botaoMenu){
-//     $menuLateral.classList.remove('menu-lateral-ativo');
-//   }
-// }
-
 $botaoMenu.addEventListener('click',function(event){
   // sairMenu(event.target);
   abreFechaMenu();
