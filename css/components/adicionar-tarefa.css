@@ -17,6 +17,10 @@
   transition: .5s;
 
 }
+.mostra-tarefa{
+  bottom: 0;
+}
+
 .wrap-adicionar-tarefa{
   display: flex;
   padding-top: 1em;
