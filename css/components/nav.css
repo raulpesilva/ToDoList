@@ -2,7 +2,7 @@
   width: 100%;
   height: 3em;
   display: flex;
-  align-content: space-around;
+  /* align-content: space-around; */
   justify-content: space-between;
   position: fixed;
   bottom: 0;
@@ -25,9 +25,6 @@
   width: .5em;
 }
 
-/* .aparece-menu-lateral{
-  left: 0px;
-} */
 
 .menu-lateral{
   position: fixed;
