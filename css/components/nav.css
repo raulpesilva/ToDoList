@@ -37,7 +37,8 @@
   max-width: 20em;
   z-index: 1;
   top: 0;
-  left: -85%;
+  left: 0;
+  transform: translateX(-100%);
   /* left: -16em; */
   background-color: #fff;
   box-shadow: rgba(0, 0, 0, 0.2) 0px -2px 6px;
@@ -45,12 +46,13 @@
   flex-direction: column;
   border-radius: 0 5px 5px 0;
   /* overflow: hidden; */
-  transition: 0.3s ease-in-out;
+  transition: 250ms ease-in-out;
 
 }
 
 .menu-lateral-ativo{
-  left: 0px;
+  transform: translateX(0);
+
 }
 /* .menu-lateral-ativo:after{
   content: "";
