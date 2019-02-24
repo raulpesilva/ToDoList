@@ -17,10 +17,93 @@
   left: 50%;
   transform: translateX(-50%);
   max-width: 20em;
-  min-width: 15em;
+  min-width: 12em;
   
 }
 
 .icon-menu{
   width: .5em;
 }
+
+/* .aparece-menu-lateral{
+  left: 0px;
+} */
+
+.menu-lateral{
+  position: fixed;
+  height: 100%;
+  width: 80%;
+  min-width: 10em;
+  max-width: 20em;
+  z-index: 1;
+  top: 0;
+  left: -85%;
+  /* left: -16em; */
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px -2px 6px;
+  align-items: flex-start;
+  flex-direction: column;
+  border-radius: 0 5px 5px 0;
+  /* overflow: hidden; */
+  transition: 1s ease-in-out;
+
+}
+
+.menu-lateral-ativo{
+  left: 0;
+}
+/* .menu-lateral-ativo:after{
+  content: "";
+  transition: 1s ease-in-out;
+
+  position: fixed;
+  display: block;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.2);
+
+} */
+
+
+.wrap-perfil{
+  height: 10em;
+  width: 100%;
+  min-width: 10em;
+  max-width: 20em;
+  padding: 1em;
+  box-sizing: border-box;
+  border-radius: 0 5px 0 0;
+
+  background-color: #f9f9f9;
+}
+.wrap-menu-tarefas{
+  border-bottom: #eee 1px solid;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  /* z-index: 1; */
+  background-color: #fff;  
+}
+.wrap-minhas-listas{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: #fff;
+  height: 100%;
+
+}
+
+.link-menu-lateral{
+  color: #0090FF;
+
+}
+
+.img-perfil{
+  border-radius: 50px;
+  width: 4em;
+}
+
+

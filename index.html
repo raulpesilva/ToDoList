@@ -10,11 +10,11 @@
   <!-- CSS -->
   <link rel="stylesheet" href="css/base/reset.css">
   <link rel="stylesheet" href="css/base/base.css">
-  <link rel="stylesheet" href="css/generic/">
+  <!-- <link rel="stylesheet" href="css/generic/"> -->
   <link rel="stylesheet" href="css/generic/generics.css">
-  <link rel="stylesheet" href="css/objects/">
+  <!-- <link rel="stylesheet" href="css/objects/"> -->
   <link rel="stylesheet" href="css/objects/titulo.css">
-  <link rel="stylesheet" href="css/components/">
+  <!-- <link rel="stylesheet" href="css/components/"> -->
   <link rel="stylesheet" href="css/components/adicionar-tarefa.css">
   <link rel="stylesheet" href="css/components/header.css">
   <link rel="stylesheet" href="css/components/nav.css">
@@ -103,11 +103,28 @@
         <a href="" class="icon-op-tarefa op-tarefa-item">+</a>
       </ul>
     </div>
-    <a href="#" class="botao icon-menu botao-menu"><img src="img/menu-h.svg" alt="menu de hamburger"></a>
-    <!-- <a href="#" class="botao botao-cheio botao-adivionar-tarefa">+ Adicionar tarefa</a> -->
-    <button class="botao botao-cheio botao-adicionar-tarefa">+ Adicionar tarefa</button>
+
+    <section class="menu-lateral" id="menu-lateral">
+      <div class="wrap-perfil">
+        <img src="img/perfil.jpg" alt="foto de perfil" class="img-perfil">
+        <h2 class="nome-usuario">Raul Pereira da Silva</h2>
+      </div>
+      <div class="wrap-menu-tarefas">
+        <a href="#" class="botao link-menu-lateral">Para hoje</a>
+        <a href="#" class="botao link-menu-lateral">Importante</a>
+      </div>
+      <div class="wrap-minhas-listas">
+        <a href="#" class="botao link-menu-lateral">Coisas da faculdade</a>
+        <a href="#" class="botao link-menu-lateral">Estudos</a>
+      </div>
+    </section>
+
+    <a href="#" class="botao icon-menu botao-menu "><img src="img/menu-h.svg" class="botao-menu-icone" alt="menu de hamburger"></a>
+    <a href="#" class="botao botao-cheio botao-adicionar-tarefa">+ Adicionar tarefa</a>
+    <!-- <button class="botao botao-cheio botao-adicionar-tarefa">+ Adicionar tarefa</button> -->
     <a href="#" class="botao icon-menu botao-opcoes"><img src="img/botao-opcoes.svg" alt="botao opções"></a>
   </nav>
+  <script src="js/index.js"></script>
 </body>
 
 </html>

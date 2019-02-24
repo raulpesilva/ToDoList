@@ -47,6 +47,6 @@
   /* background-color: #dddddd; */
 }
 
-.nav:hover>.container-tarefa{
+.botao-menu:hover>.container-tarefa{
   bottom: 0;
 }
