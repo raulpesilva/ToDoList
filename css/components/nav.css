@@ -37,7 +37,7 @@
   max-width: 20em;
   z-index: 1;
   top: 0;
-  left: -85%;
+  left: -300px;
   /* left: -16em; */
   background-color: #fff;
   box-shadow: rgba(0, 0, 0, 0.2) 0px -2px 6px;
@@ -50,7 +50,7 @@
 }
 
 .menu-lateral-ativo{
-  left: 0;
+  left: 0px;
 }
 /* .menu-lateral-ativo:after{
   content: "";
