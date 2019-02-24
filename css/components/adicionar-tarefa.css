@@ -1,6 +1,6 @@
 .container-tarefa {
   position: fixed;
-  width: 75%;
+  width: 93%;
   /* height: 10em; */
   background-color: #fff;
 
@@ -24,10 +24,28 @@
 }
 .menu-hide-dicionar-tarefa{
   padding: 0 2em;
-  width: .7em;
-  height: .7em;
   margin-top: .5em;
   /* background-color: red; */
+}
+.icone-drop{
+  width: 1em;
+}
+
+.overlay-menu{
+  width: 100%;
+  height: 100%;
+  top: 0;
+  position: fixed;
+  z-index: 1;
+  background-color: #000;
+  display: none;
+  opacity: 0;
+
+}
+.overlay-menu-ativo{
+  display: block;
+
+  opacity: .2;
 }
 
 .wrap-adicionar-tarefa{
